@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Avinash | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset & Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.3rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      font-style: italic;
+    }
+
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    #about {
+      background: #ffffff;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    #projects {
+      background: #e9ecef;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .project {
+      margin-bottom: 1rem;
+      padding: 1rem;
+      background: #fff;
+      border-left: 4px solid #0077b6;
+      border-radius: 6px;
+    }
+
+    #contact {
+      background: #ffffff;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Avinash</h1>
+    <p>Frontend Developer & Creative Coder</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Avinash, a passionate front-end developer who loves building clean and responsive websites using HTML, CSS, and JavaScript. I'm currently working on exciting projects like an Anime Tracker and the KBC Quiz App.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>KBC Quiz App</h3>
+      <p>A fun, interactive quiz based on the popular Kaun Banega Crorepati format using vanilla JavaScript.</p>
+    </div>
+
+    <div class="project">
+      <h3>Anime Tracker</h3>
+      <p>A full-stack application to track and rate anime shows, manage watchlists, and join fan clubs. Built with Node.js, MongoDB, and React (in progress).</p>
+    </div>
+
+    <div class="project">
+      <h3>Responsive Gallery</h3>
+      <p>A clean and simple image gallery that adjusts layout based on screen size using only CSS.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: avinash@example.com</p>
+    <p>GitHub: <a href="https://github.com/avinash" target="_blank">github.com/avinash</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Avinash. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
